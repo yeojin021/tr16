@@ -1,0 +1,52 @@
+:root {
+    --pr-c: #9AA6B2;
+    --se-c: #BCCCDC;
+    --po-c: #F8FAFC;
+
+    --li-c: #ddd;
+    --bd-c: #444;
+
+    --w-c: #fff;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--bd-c);
+    font-size: 1.6rem;
+}
+
+.inner {
+    max-width: 117rem;
+    margin: 0 auto;
+}
+
+.flx {
+    display: flex;
+
+}
+
+.flx>* {
+    flex: ;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2.4rem;
+    height: 4rem;
+    border: 1px solid var(--color);
+    background: var(--color);
+}
+
+.btn.btn_web {
+    color: var(--w-c);
+}
+
+.btn.btn_photo {
+    color: var(--color);
+    background: transparent;
+}
